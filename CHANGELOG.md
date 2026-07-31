@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.2.0] — 2026-07-31
+
+### Added
+- references/components-premium.md — Card Swap (GSAP, depth, pause-on-hover,
+  a11y carousel) + pattern premium (marquee, staggered reveal, number counter,
+  magnetic cursor, progressive blur) con fonti: ReactBits, Skiper UI
+- references/superdesign.md — integrazione Superdesign AI design agent
+  (install, workflow con canvas, branch varianti, replica HTML, comandi)
+
+### Changed
+- playbooks/landing-page.md — nuova Fase 1b (design su Superdesign, opzionale),
+  Card Swap e componenti premium integrati in Fase 1 e Fase 3, self-review
+  inclusa verifica pause-on-hover e reduced-motion
+- prompts/landing-page.md — GSAP da CDN aggiunto in Modalità A, Card Swap tra
+  i componenti premium disponibili, opzione Superdesign nel form di compilazione
+- references/animations.md — sezione GSAP (CDN + npm, pattern predefiniti, regole)
+
 ## [1.1.0] — 2026-07-31
 
 ### Added
