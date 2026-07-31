@@ -89,6 +89,13 @@ Salvo indicazione contraria nel progetto:
 
 Non introdurre dipendenze non necessarie. Ogni `npm install` va giustificato.
 
+### Due modalità di landing page
+- **Showcase (single-file):** `index.html` con Tailwind via CDN + Google Font +
+  Spline/Three.js opzionali, look ShadCN replicato a mano. Per demo e landing veloci.
+- **Produzione:** Next.js/Astro + Tailwind build + componenti reali shadcn/ui. Per
+  SEO, performance e riuso. Direzione estetica in `references/visual-style.md`.
+  ShadCN UI (React) è usabile SOLO in modalità produzione.
+
 ## 6. Coding standards
 
 - Componenti piccoli, single-responsibility, nominati per funzione

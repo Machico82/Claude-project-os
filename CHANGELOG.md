@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.1.0] — 2026-07-31
+
+### Added
+- references/visual-style.md — direzione estetica di default (Google Font,
+  palette scura/neon o calda/beige, rounded-2xl, shadow sottili, micro-animazioni,
+  Three.js/Spline in showcase mode)
+
+### Changed
+- prompts/landing-page.md — due modalità di output (A single-file Tailwind CDN /
+  B produzione Next.js+shadcn); requisiti estetici espliciti; chiarito il conflitto
+  ShadCN-React vs single-file CDN
+- prompts/hero.md — supporto hero 3D (Spline/Three.js) con lazy-load e fallback
+- CLAUDE.md — sezione "Due modalità di landing page" nello stack
+
 ## [1.0.0] — 2026-07-31
 
 ### Added
